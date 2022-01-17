@@ -6,3 +6,10 @@ if [[ $? -eq 0 ]];then
 else
     echo "error"
 fi
+
+
+for i in `seq 1 10`
+do
+    ping -c1 www.baidu.com
+
+done
