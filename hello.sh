@@ -13,3 +13,4 @@ do
     ping -c1 www.baidu.com
 
 done
+echo "55555555"
